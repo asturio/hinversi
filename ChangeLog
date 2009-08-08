@@ -1,0 +1,105 @@
+2008-05-22  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* cgi/main.c: Now reads a board an makes a move
+	* configure.ac: Added cgi and changed version number to 0.8.2
+	* configure: Updated
+	* human-cli/human-cli.c: changed board drawing (changed column/line notation)
+	* lib/aiManager.c: swapped column/line notation
+	* lib/matador.c: swapped column/line notation
+	* lib/othello.c: Added string2board() and board2string()
+	* Makefile.am: Added cgi
+	* Makefile.in: Added cgi
+
+2007-10-02  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* check/Makefile.am: Added CFLAGS so check will work even if installed
+	in some strange place.
+
+2007-03-25  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi-cli.1: Added a man page for hinversi-cli
+	* human-cli/main.c: Use getopt to parse options, rewrotte usage.
+
+2007-03-23  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* libhinversi: Added new AI-Engine: ElMatador, stronger and faster
+	then Neo. Added also check support
+	* configure.ac: Updated to match configure.scan better. Changed
+	version to 0.8.0, use AUX-DIR, changed automake flags
+	* hinversi: Terminated add of gettext
+
+2007-03-01  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi: gettext support added, translations in german (de) and
+	brazilian portuguese (pt_BR).
+
+2007-03-01  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Add po.
+	(ACLOCAL_AMFLAGS): New variable.
+	(EXTRA_DIST): New variable.
+	* configure.ac (AC_CONFIG_FILES): Add po/Makefile.in.
+
+2007-02-22  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi: Reorganized package to use the autotools.
+	* hinversi: Added some more standards (like the format of this file).
+
+2006-11-26  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi-cli: Realy split cli-gui from library.
+	* hinversi: Changed optimization flags in makefile.
+	* libhinversi: Use ringbuffer to pass messages from libbrary to GUI.
+	* libhinversi: Added weighted view of board to Neo-engine.
+	* libhinversi: Added a limit to neo think-nodes. Should be now
+	"faster" in mid-game.
+	* libhinversi: Neo can play against himself, without getting confused,
+	because of using same variables.
+	* libhinversi: Neo dynamic depth changed.
+	* libhinversi: GPL-Note is now in library.
+
+2004-10-24  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi: Split in a Library and Mainfile, to make possible the use
+	of hinversi as backend (like in gai-othello).
+	* hinversi: Added dynamic depth.
+
+2004-01-28  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi: Neo (AI added). An Alpha-Beta-Search engine implemented.
+	Now it's much harder to win.
+
+2003-10-14  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi: Changed commandline options.
+	* hinversi: Added code to select which Player type is playing which
+	color.
+
+2003-10-08  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi: First simple AI client implemented. Now it can be
+	chalenging playing agains the computer.
+
+2003-09-27  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi: Changed name to "hinversi".
+	* hinversi: Some pointer renamed (x -> p_x).
+	* hinversi: Split the code to reache better modularity.
+	* hinversi: Introduced t_board type.
+	* hinversi: Documentation should be up to date.
+
+2003-09-23  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi: Some rewritte to make it a little more flexible.
+	* hinversi: Documentation is up to date.
+
+2003-09-21  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* hinversi: First functional release.
+	* hinversi: naiv-ai works.
+	* hinversi: human-cli works.
+	* hinversi: any combination of human-ai works.
+	* hinversi: Players have names.
+	* hinversi: Count final score.
+
+# :vim:tw=80:

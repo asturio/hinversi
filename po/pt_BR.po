@@ -1,0 +1,183 @@
+# Portuguese translations for hinversi package.
+# Copyright (C) 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the hinversi package.
+# Claudio André Till Clemens <asturio@gmx.net>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hinversi 0.8.0\n"
+"Report-Msgid-Bugs-To: asturio@gmx.net\n"
+"POT-Creation-Date: 2007-03-28 08:11+0200\n"
+"PO-Revision-Date: 2007-12-11 21:02+0100\n"
+"Last-Translator: Claudio André Till Clemens <asturio@gmx.net>\n"
+"Language-Team: Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: human-cli/human-cli.c:95
+#, c-format
+msgid "%s/%s Can't move, *passing %s*.\n"
+msgstr "%s/%s Não pode mover, *pula %s*.\n"
+
+#: human-cli/human-cli.c:96 human-cli/human-cli.c:98 human-cli/human-cli.c:111
+msgid "B"
+msgstr "P"
+
+#: human-cli/human-cli.c:96 human-cli/human-cli.c:98 human-cli/human-cli.c:111
+msgid "W"
+msgstr "B"
+
+#: human-cli/human-cli.c:96
+msgid "once"
+msgstr "um vez"
+
+#: human-cli/human-cli.c:96
+msgid "twice"
+msgstr "duas vezes"
+
+#: human-cli/human-cli.c:156
+#, c-format
+msgid "Choose your destiny: "
+msgstr "Escolha seu destino: "
+
+#: human-cli/human-cli.c:191
+msgid "Black"
+msgstr "Preto"
+
+#: human-cli/human-cli.c:194
+msgid "White"
+msgstr "Branco"
+
+#: human-cli/human-cli.c:196
+#, c-format
+msgid "Please enter the name %s player: \n"
+msgstr "Por favor entre o nome do jogador %s: \n"
+
+#: human-cli/human-cli.c:209
+#, c-format
+msgid ""
+"%s (Black): %d x %d :(White) %s\n"
+"\n"
+"%s Wins!!!\n"
+"\n"
+msgstr ""
+"%s (Preto): %d x %d :(Branco) %s\n"
+"\n"
+"%s ganha!!!\n"
+"\n"
+
+#: human-cli/human-cli.c:212
+msgid "No one"
+msgstr "Ninguém"
+
+#: human-cli/main.c:67
+#, c-format
+msgid "%s options:\n"
+msgstr "%s opções:\n"
+
+#: human-cli/main.c:68
+#, c-format
+msgid ""
+"\t-b\t\tBLACK player [h0123] (default - h)\n"
+"\t--black\n"
+msgstr ""
+"\t-b\t\tJogador PRETO [h0123] (padrão - h)\n"
+"\t--black\n"
+
+#: human-cli/main.c:69
+#, c-format
+msgid ""
+"\t-w\t\tWHITE player [h0123] (default - 1)\n"
+"\t--white\n"
+msgstr ""
+"\t-w\t\tJogador BRANCO [h0123] (padrão - 1)\n"
+"\t--white\n"
+
+#: human-cli/main.c:70
+#, c-format
+msgid ""
+"\t-V\t\tDisplays the version number\n"
+"\t--version\n"
+msgstr ""
+"\t-V\t\tMostra o número da versão\n"
+"\t--version\n"
+
+#: human-cli/main.c:71
+#, c-format
+msgid ""
+"\t-h\t\tThis Help screen\n"
+"\t--help\n"
+msgstr ""
+"\t-h\t\tEssa ajuda\n"
+"\t--help\n"
+
+#: human-cli/main.c:100 human-cli/main.c:107
+#, c-format
+msgid "Engine '%c' not implemented!\n"
+msgstr "Engine '%c' não implementada!\n"
+
+#: human-cli/main.c:162
+#, c-format
+msgid "This game: %s/B x %s/W.\n"
+msgstr "Este jogo: %s/P x %s/B.\n"
+
+#: human-cli/main.c:164
+#, c-format
+msgid "ERROR: can't initialize othello board!"
+msgstr "ERRO: não posso inicializar o tabuleiro de othello!"
+
+#: human-cli/main.c:188
+#, c-format
+msgid "%s: Sorry, can't make that move.\n"
+msgstr "%s: Desculpe-me, não pode fazer essa jogada.\n"
+
+#: lib/abClient.c:168 lib/matador.c:192
+#, c-format
+msgid " ****** No move selected, strange !!!\n"
+msgstr " ****** Nenhuma jogada selecionada, estranho !!!\n"
+
+#: lib/abClient.c:283
+#, c-format
+msgid "You shouldn't be seeing this message %s, %d.\n"
+msgstr "Você não deveria estar vendo essa menságem %s, %d.\n"
+
+#: lib/aiManager.c:71 lib/aiManager.c:100
+#, c-format
+msgid "Client '%c' not implemented!\n"
+msgstr "Cliente '%c' não implementado!\n"
+
+#: lib/aiManager.c:103
+#, c-format
+msgid "Choosed [%c%d].\n"
+msgstr "Escolheu [%c%d].\n"
+
+#: lib/othello.c:281
+#, c-format
+msgid ""
+"%s: Got %d moves, maximum is %d. Please increase MAXMOB and notify the "
+"author.\n"
+msgstr ""
+"%s: Consegui %d jogadas, máximo é %d. Por favor aumente MAXMOB e avise o "
+"autor.\n"
+
+#: lib/othello.c:338
+#, c-format
+msgid ""
+"%s Version: %s - (c) Claudio Clemens\n"
+"\n"
+"%s comes with ABSOLUTELY NO WARRANTY; for details see the file\n"
+"COPYING.  This is free software, and you are welcome to redistribute it\n"
+"under certain conditions.\n"
+"\n"
+msgstr ""
+"%s Versão: %s - (c) Claudio Clemens\n"
+"\n"
+"%s NÃO VEM COM GARANTIA NENHUMA; para maiores detalhes veja o arquivo\n"
+"COPYING.  Este é um software livre, e você pode redistribuí-lo\n"
+"sob certas condições.\n"
+"\n"
+
+#~ msgid "%s: illegal option %c. Try -?.\n"
+#~ msgstr "%s: opção inválida %c. Tente -?.\n"

@@ -1,0 +1,20 @@
+2007-03-01  Claudio André Till Clemens  <asturio@gmx.net>
+
+	* LINGUAS: New file.
+	* Makevars: New file.
+	* hinversi.pot: New file.
+	* de.po: German translation.
+	* pt_BR.po: Portuguese translation.
+
+2007-03-01  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.in.in: New file, from gettext-0.15.
+	* Rules-quot: New file, from gettext-0.15.
+	* boldquot.sed: New file, from gettext-0.15.
+	* en@boldquot.header: New file, from gettext-0.15.
+	* en@quot.header: New file, from gettext-0.15.
+	* insert-header.sin: New file, from gettext-0.15.
+	* quot.sed: New file, from gettext-0.15.
+	* remove-potcdate.sin: New file, from gettext-0.15.
+	* POTFILES.in: New file.
+

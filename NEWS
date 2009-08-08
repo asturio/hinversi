@@ -1,0 +1,29 @@
+hinversi 0.8.2
+===
+- Swapped  the notation of the board. It follows most of other othello
+  implementations.
+- Added an experimental client, which reads a board, the turn and an engine and
+  makes a move using that engine. This should be the beginning interface for
+  using in CGIs.
+
+hinversi 0.8.1
+===
+- Minor build updates.
+
+hinversi 0.8.0
+===
+- Added a new AI-Engine (ElMatador), which is more powerful than Neo, and
+  faster.
+- Added check support.
+- gettext support added. Translated to portuguese and german.
+
+hinversi 0.7.2
+===
+- Converted everything to automake/autoconf.
+
+Now you just need to run
+./configure
+make
+make install
+
+=== No more history

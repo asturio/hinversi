@@ -1,0 +1,7 @@
+# List of source files which contain translatable strings.
+human-cli/human-cli.c
+human-cli/main.c
+lib/abClient.c
+lib/aiManager.c
+lib/matador.c
+lib/othello.c

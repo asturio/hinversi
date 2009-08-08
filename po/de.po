@@ -1,0 +1,183 @@
+# German translations for hinversi package.
+# Copyright (C) 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the hinversi package.
+# Claudio André Till Clemens <asturio@gmx.net>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hinversi 0.8.0\n"
+"Report-Msgid-Bugs-To: asturio@gmx.net\n"
+"POT-Creation-Date: 2007-03-28 08:11+0200\n"
+"PO-Revision-Date: 2007-12-11 21:02+0100\n"
+"Last-Translator: Claudio André Till Clemens <asturio@gmx.net>\n"
+"Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: human-cli/human-cli.c:95
+#, c-format
+msgid "%s/%s Can't move, *passing %s*.\n"
+msgstr "%s/%s Kann nicht ziehen, *%s aussetzen*.\n"
+
+#: human-cli/human-cli.c:96 human-cli/human-cli.c:98 human-cli/human-cli.c:111
+msgid "B"
+msgstr "S"
+
+#: human-cli/human-cli.c:96 human-cli/human-cli.c:98 human-cli/human-cli.c:111
+msgid "W"
+msgstr "W"
+
+#: human-cli/human-cli.c:96
+msgid "once"
+msgstr "ein Mal"
+
+#: human-cli/human-cli.c:96
+msgid "twice"
+msgstr "zwei Mal"
+
+#: human-cli/human-cli.c:156
+#, c-format
+msgid "Choose your destiny: "
+msgstr "Wähle deinen Schicksaal: "
+
+#: human-cli/human-cli.c:191
+msgid "Black"
+msgstr "Schwarz"
+
+#: human-cli/human-cli.c:194
+msgid "White"
+msgstr "Weiß"
+
+#: human-cli/human-cli.c:196
+#, c-format
+msgid "Please enter the name %s player: \n"
+msgstr "Bitte geben Sie den Namen des Spielers für %s ein: \n"
+
+#: human-cli/human-cli.c:209
+#, c-format
+msgid ""
+"%s (Black): %d x %d :(White) %s\n"
+"\n"
+"%s Wins!!!\n"
+"\n"
+msgstr ""
+"%s (Schwarz): %d x %d :(Weiß) %s\n"
+"\n"
+"%s gewinnt!!!\n"
+"\n"
+
+#: human-cli/human-cli.c:212
+msgid "No one"
+msgstr "Niemand"
+
+#: human-cli/main.c:67
+#, c-format
+msgid "%s options:\n"
+msgstr "%s Optionen:\n"
+
+#: human-cli/main.c:68
+#, c-format
+msgid ""
+"\t-b\t\tBLACK player [h0123] (default - h)\n"
+"\t--black\n"
+msgstr ""
+"\t-b\t\tSchwarzer Spieler [h0123] (default - h)\n"
+"\t--black\n"
+
+#: human-cli/main.c:69
+#, c-format
+msgid ""
+"\t-w\t\tWHITE player [h0123] (default - 1)\n"
+"\t--white\n"
+msgstr ""
+"\t-w\t\tWeißer Spieler [h0123] (default - 1)\n"
+"\t--white\n"
+
+#: human-cli/main.c:70
+#, c-format
+msgid ""
+"\t-V\t\tDisplays the version number\n"
+"\t--version\n"
+msgstr ""
+"\t-V\t\tZeigt die Versionsnummer\n"
+"\t--version\n"
+
+#: human-cli/main.c:71
+#, c-format
+msgid ""
+"\t-h\t\tThis Help screen\n"
+"\t--help\n"
+msgstr ""
+"\t-h\t\tDiese Hilfeseite\n"
+"\t--help\n"
+
+#: human-cli/main.c:100 human-cli/main.c:107
+#, c-format
+msgid "Engine '%c' not implemented!\n"
+msgstr "Engine '%c' nicht implementiert!\n"
+
+#: human-cli/main.c:162
+#, c-format
+msgid "This game: %s/B x %s/W.\n"
+msgstr "Dieses Spiel: %s/S x %s/W.\n"
+
+#: human-cli/main.c:164
+#, c-format
+msgid "ERROR: can't initialize othello board!"
+msgstr "FEHLER: kann das othello Bret nicht initilisieren!"
+
+#: human-cli/main.c:188
+#, c-format
+msgid "%s: Sorry, can't make that move.\n"
+msgstr "%s: Sorry, kann diesen Zug nicht machen.\n"
+
+#: lib/abClient.c:168 lib/matador.c:192
+#, c-format
+msgid " ****** No move selected, strange !!!\n"
+msgstr " ****** Kein Zug ausgewählt, seltsam !!!\n"
+
+#: lib/abClient.c:283
+#, c-format
+msgid "You shouldn't be seeing this message %s, %d.\n"
+msgstr "Sie sollten diese Meldung nicht sehen %s, %d.\n"
+
+#: lib/aiManager.c:71 lib/aiManager.c:100
+#, c-format
+msgid "Client '%c' not implemented!\n"
+msgstr "Client '%c' nicht implementiert!\n"
+
+#: lib/aiManager.c:103
+#, c-format
+msgid "Choosed [%c%d].\n"
+msgstr "Gezogen [%c%d].\n"
+
+#: lib/othello.c:281
+#, c-format
+msgid ""
+"%s: Got %d moves, maximum is %d. Please increase MAXMOB and notify the "
+"author.\n"
+msgstr ""
+"%s: Habe %d Züge gefunden, das Maximum ist %d. Bitte erhöhen Sie MAXMOB und "
+"benachrichtigen Sie denAuthor.\n"
+
+#: lib/othello.c:338
+#, c-format
+msgid ""
+"%s Version: %s - (c) Claudio Clemens\n"
+"\n"
+"%s comes with ABSOLUTELY NO WARRANTY; for details see the file\n"
+"COPYING.  This is free software, and you are welcome to redistribute it\n"
+"under certain conditions.\n"
+"\n"
+msgstr ""
+"%s Version: %s - (c) Claudio Clemens\n"
+"\n"
+"%s kommt ohne JEGLICHE GARANTIE; für weitere Details siehe die Datei\n"
+"COPYING.  Das ist freie Software, und Sie können es weiterverbreiten\n"
+"unter bestimmte Voraussetzungen.\n"
+"\n"
+
+#~ msgid "%s: illegal option %c. Try -?.\n"
+#~ msgstr "%s: ungültige Option %c. Versuch -?.\n"

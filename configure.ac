@@ -1,12 +1,13 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ(2.61)
+AC_PREREQ(2.63)
 AC_INIT([hinversi],[0.8.2],[asturio@gmx.net])
 AC_CONFIG_SRCDIR([lib/othello.c])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_HEADER([config.h])
 AM_INIT_AUTOMAKE([-Wall -Werror])
+AC_CONFIG_MACRO_DIR([m4])
 
 # Checks for programs.
 AC_PROG_CC
@@ -14,8 +15,9 @@ AC_PROG_CPP
 AC_PROG_INSTALL
 AC_PROG_LN_S
 AC_PROG_MAKE_SET
+# AC_PROG_MSGFMT
 # AC_PROG_RANLIB
-AC_PROG_LIBTOOL
+LT_INIT
 PKG_CHECK_MODULES([CHECK], [check >= 0.9.4], [HAVE_CHECK=yes], 
                     [
                         AC_MSG_WARN(check not found. Checks disabled.)

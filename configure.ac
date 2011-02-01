@@ -1,7 +1,7 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ(2.63)
+AC_PREREQ([2.67])
 AC_INIT([hinversi],[0.8.2],[asturio@gmx.net])
 AC_CONFIG_SRCDIR([lib/othello.c])
 AC_CONFIG_AUX_DIR([build-aux])
